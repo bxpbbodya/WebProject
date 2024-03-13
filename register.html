@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <button onclick="location.href='main.html';">Main menu</button>
+        <h1>Register</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Registration Form -->
+        <section id="registration-form">
+            <h2>Create a new account</h2>
+            <form action="process_register.php" method="POST">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+                
+                <label for="role">Role:</label>
+                <select id="role" name="role">
+                    <option value="regular">Regular</option>
+                    <option value="admin">Admin</option>
+                </select>
+                
+                <button type="submit">Register</button>
+            </form>
+        </section>
+
+        <!-- Link to Login Page -->
+        <section id="login-link">
+            <p>Already have an account? <a href="login.html">Login here</a></p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Family Budget Management System</p>
+    </footer>
+</body>
+</html>
