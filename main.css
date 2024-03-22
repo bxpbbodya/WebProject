@@ -1,0 +1,64 @@
+header {
+  background-image: url("https://images8.alphacoders.com/504/504016.jpg");
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+  font-family: sans-serif;
+  background-size: cover; /* щоб зображення займало всю доступну площу */
+  background-position: center; /* щоб зображення було в центрі елементу */
+}
+
+main {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  color: #3498db;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type=text],
+input[type=password],
+select {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #217dbb;
+}
+
+#login-link a {
+  color: #3498db;
+}
+#login-link a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */
